@@ -20,21 +20,21 @@ El Request tiene que contener en el body un request de tipo  application/json, y
 ## Topics
 
 * Product
-**  product-updated  
-**  product-created
-**  product-deleted
+	*  product-updated  
+	*  product-created
+	*  product-deleted
 *  Customer
-**   customer-created
-**   customer-updated  
+	* customer-created
+	* customer-updated  
 * Order
-**  order-created
-**   order-paid
-**   order-packed 
-**  order-fulfilled
+	*  order-created
+	*   order-paid
+	*  order-packed 
+	* order-fulfilled
     
 * Otros    
-**   newsletter.subscribed
-**   cart.created
+	*   newsletter.subscribed
+	*   cart.created
 
 # Endpoints
 
