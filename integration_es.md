@@ -1,3 +1,4 @@
+
 # Documentacion Basica para Intregacion
  
  La idea de este documento, es tener una base para iniciar el proceso de integracion con perfit. A continuacion se listan los elementos basicos para una integracion funcional, pero toda informacion que se pueda agregar podra ser usada para mejorar la integracion.
@@ -41,8 +42,8 @@ Desde nuestra aplicacion debemos poder obtener informacion para utilizar en nues
 
 El metodo que usamos es **GET {urlBase}/{endpoint}**
  
-* Orders
-**  /orders/{orderId}
+#### Orders
+*  /orders/{orderId}
 ```javascript
 {
 	"topic": "",
@@ -52,7 +53,8 @@ El metodo que usamos es **GET {urlBase}/{endpoint}**
 	}
 }
 ```
-**   /orders/{orderId}/products
+* /orders/{orderId}/products
+	
 ```javascript
 {
 	"topic": "",
@@ -67,9 +69,10 @@ El metodo que usamos es **GET {urlBase}/{endpoint}**
 ```
 *   /cart/{cartId} (en caso de que lo manejen por separado el carrito de la order)
    
+#### Productos   
 *   /products
-** ?filters.type=most_selling (filtro para mas vendidos)
-** ?filters.type=new (filtro para mas recientes)
+	* ?filters.type=most_selling (filtro para mas vendidos)
+	* ?filters.type=new (filtro para mas recientes)
 
 ```javascript
 {
@@ -83,6 +86,8 @@ El metodo que usamos es **GET {urlBase}/{endpoint}**
 	]
 }
 ```
+
+#### Customers
     
 *   /customers
 *   /customers/{customerId}
