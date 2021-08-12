@@ -1,5 +1,5 @@
 
-# Documentacion Basica para Intregacion
+# Documentacion Basica para Integracion
  
  La idea de este documento, es tener una base para iniciar el proceso de integracion con perfit. A continuacion se listan los elementos basicos para una integracion funcional, pero toda informacion que se pueda agregar podra ser usada para mejorar la integracion.
 
